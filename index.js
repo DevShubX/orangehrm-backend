@@ -13,7 +13,7 @@ const app = express();
 
 // CORS Setup
 const corsOptions = {
-    origin: "http://localhost:3000",
+    origin: "https://orangehrm-frontend.vercel.app",
     optionSuccessStatus: 200,
     credentials: true,
 }
